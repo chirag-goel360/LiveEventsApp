@@ -1,0 +1,80 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "eb3d22e5-1645-4334-a625-19249df25173",
+  "packageName": "com.microsoft.teams.innovaccionvirtual",
+  "developer": {
+    "name": "InnovaccionVirtual Mexico",
+    "websiteUrl": "https://innovaccion.mx",
+    "privacyUrl": "https://privacy.microsoft.com/es-mx/privacystatement",
+    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/terms-of-user"
+  },
+  "localizationInfo": {
+    "defaultLanguageTag": "en",
+    "additionalLanguages": [
+      {
+        "languageTag": "en",
+        "file": "en.json"
+      },
+      {
+        "languageTag": "es",
+        "file": "es.json"
+      }
+    ]
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Innovaccion Lives (Sherpas)",
+    "full": "Innovaccion Lives(Sherpas Team)"
+  },
+  "description": {
+    "short": "Los Sherpas pueden crear y administrar eventos en vivo para sus viajeros.",
+    "full": "Haga participar a sus viajeros en el aprendizaje en el que dedican la mayor parte del tiempo: justo aquí en Microsoft Teams. El equipo de aprendizaje + desarrollo puede crear nuevos eventos de aprendizaje, especificar quién puede asistir y si el evento es obligatorio o no, y cerrar el registro una vez que se alcanza la capacidad. Los avisos integrados le ayudarán a asegurarse de que los eventos estén bien atendidos. By Fer 8a"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "manage-events",
+      "name": "Manage events",
+      "contentUrl": "https://eventosinnovaccion.azurefd.net/manage-events",
+      "websiteUrl": "https://eventosinnovaccion.azurefd.net/manage-events",
+      "scopes": [ "team" ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "d4f93189-b1a0-48c5-b8f2-2b850620627b",
+      "scopes": [
+        "team"
+      ],
+      "commandLists": [
+        {
+          "scopes": [ "team" ],
+          "commands": [
+            {
+              "title": "Add event",
+              "description": "Add event for users"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "eventosinnovaccion.azurefd.net"
+  ],
+  "webApplicationInfo": {
+    "id": "d4f93189-b1a0-48c5-b8f2-2b850620627b",
+    "resource": "api://eventosinnovaccion.azurefd.net/d4f93189-b1a0-48c5-b8f2-2b850620627b"
+  }
+}

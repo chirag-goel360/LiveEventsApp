@@ -1,0 +1,112 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "eb3d21e5-1635-4334-a625-19249df25173",
+  "packageName": "com.microsoft.teams.innovaccionvirtual",
+  "developer": {
+    "name": "InnovaccionVirtual Mexico",
+    "websiteUrl": "https://innovaccion.mx",
+    "privacyUrl": "https://privacy.microsoft.com/es-mx/privacystatement",
+    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/terms-of-user"
+  },
+  "localizationInfo": {
+    "defaultLanguageTag": "en",
+    "additionalLanguages": [
+      {
+        "languageTag": "en",
+        "file": "en.json"
+      },
+      {
+        "languageTag": "es",
+        "file": "es.json"
+      }
+    ]
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Innovaccion Lives",
+    "full": "Innovaccion Lives Viajeros"
+  },
+  "description": {
+    "short": "Facilite a los viajeros descubrir, registrarse y compartir eventos en vivo.",
+    "full": "Involucre a sus viajeros con la capacitación donde pasan la mayor parte de su tiempo, aquí mismo en Microsoft Teams. Los sherpas pueden crear nuevos eventos de capacitación, especificar quién puede asistir y si el evento es obligatorio o no, y cerrar el registro una vez que se haya completado la capacidad. Una vez que la aplicación se agrega a un canal de Teams, los viajeros pueden visitar la pestaña Descubrir para buscar eventos, registrarse para los que les interesan y usar la extensión de mensajes de la aplicación para sugerir eventos a sus colegas o subordinados directos. Una vez registrados, los viajeros reciben recordatorios en Teams, ¡Para que nunca se pierdan un evento! by Fer 8a"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "discover-events",
+      "name": "Discover events",
+      "contentUrl": "https://eventosinnovaccion.azurefd.net/discover-events",
+      "websiteUrl": "https://eventosinnovaccion.azurefd.net/discover-events",
+      "scopes": [ "personal" ]
+    },
+    {
+      "entityId": "my-events",
+      "name": "Your events",
+      "contentUrl": "https://eventosinnovaccion.azurefd.net/my-events",
+      "websiteUrl": "https://eventosinnovaccion.azurefd.net/my-events",
+      "scopes": [ "personal" ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "d4f93189-b1a0-48c5-b8f2-2b850620627b",
+      "scopes": [
+        "personal"
+      ],
+      "commandLists": [
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "composeExtensions": [
+    {
+      "botId": "d4f93189-b1a0-48c5-b8f2-2b850620627b",
+      "canUpdateConfiguration": false,
+      "commands": [
+        {
+          "id": "recent",
+          "title": "Recent",
+          "description": "Show all created events.",
+          "parameters": [
+            {
+              "name": "searchText",
+              "title": "recent",
+              "description": "Enter to search event"
+            }
+          ],
+          "initialRun": true
+        },
+        {
+          "id": "popular",
+          "title": "Popular",
+          "description": "Show popular events.",
+          "parameters": [
+            {
+              "name": "searchText",
+              "title": "popular",
+              "description": "Enter to search event"
+            }
+          ],
+          "initialRun": true
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "eventosinnovaccion.azurefd.net"
+  ],
+  "webApplicationInfo": {
+    "id": "d4f93189-b1a0-48c5-b8f2-2b850620627b",
+    "resource": "api://eventosinnovaccion.azurefd.net/d4f93189-b1a0-48c5-b8f2-2b850620627b"
+  }
+}

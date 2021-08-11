@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "Innovaccion Lives",
+  "name.full": "Innovaccion Lives Viajeros",
+  "description.short": "Facilite a los viajeros descubrir, registrarse y compartir eventos en vivo.",
+  "description.full": "Involucre a sus viajeros con la capacitación donde pasan la mayor parte de su tiempo, aquí mismo en Microsoft Teams. Los sherpas pueden crear nuevos eventos de capacitación, especificar quién puede asistir y si el evento es obligatorio o no, y cerrar el registro una vez que se haya completado la capacidad. Una vez que la aplicación se agrega a un canal de Teams, los viajeros pueden visitar la pestaña Descubrir para buscar eventos, registrarse para los que les interesan y usar la extensión de mensajes de la aplicación para sugerir eventos a sus colegas o subordinados directos. Una vez registrados, los viajeros reciben recordatorios en Teams, ¡Para que nunca se pierdan un evento! By Fer 8a",
+  "staticTabs[0].name": "Descubrir eventos",
+  "staticTabs[1].name": "Sus eventos",
+  "composeExtensions[0].commands[0].title": "Reciente",
+  "composeExtensions[0].commands[0].description": "Mostrar todos los eventos creados",
+  "composeExtensions[0].commands[0].parameters[0].description": "Entrar para buscar un evento",
+  "composeExtensions[0].commands[1].title": "Populares",
+  "composeExtensions[0].commands[1].description": "Mostrar eventos populares",
+  "composeExtensions[0].commands[1].parameters[0].description": "Entrar para buscar un evento"
+}

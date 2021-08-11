@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "Innovaccion Lives",
+  "name.full": "Innovaccion Lives Viajeros",
+  "description.short": "Make it easy for travelers to discover, register and share live events.",
+  "description.full": "Engage your travelers with training where they spend most of their time, right here in Microsoft Teams. Sherpas can create new training events, specify who can attend and if the event is required or not , and close registration once capacity is complete. Once the app is added to a Teams channel, travelers can visit the Discover tab to search for events, sign up for those they care about, and use the messages extension from the app to suggest events to colleagues or direct reports. Once registered, travelers receive reminders in Teams, so they never miss an event! by Fer 8a",
+  "staticTabs[0].name": "Discover events",
+  "staticTabs[1].name": "Your events",
+  "composeExtensions[0].commands[0].title": "Recent",
+  "composeExtensions[0].commands[0].description": "Show all created events.",
+  "composeExtensions[0].commands[0].parameters[0].description": "Enter to search event",
+  "composeExtensions[0].commands[1].title": "Popular",
+  "composeExtensions[0].commands[1].description": "Show popular events.",
+  "composeExtensions[0].commands[1].parameters[0].description": "Enter to search event"
+}

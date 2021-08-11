@@ -1,0 +1,10 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "Innovaccion Lives (Sherpas)",
+  "name.full": "Innovaccion Lives(Sherpas Team)",
+  "description.short": "Los Sherpas pueden crear y administrar eventos en vivo para sus viajeros.",
+  "description.full": "Haga participar a sus viajeros en el aprendizaje en el que dedican la mayor parte del tiempo: justo aquí en Microsoft Teams. El equipo de aprendizaje + desarrollo puede crear nuevos eventos de aprendizaje, especificar quién puede asistir y si el evento es obligatorio o no, y cerrar el registro una vez que se alcanza la capacidad. Los avisos integrados le ayudarán a asegurarse de que los eventos estén bien atendidos. By Fer 8a",
+  "staticTabs[0].name": "Administrar eventos",
+  "bots[0].commandLists[0].commands[0].title": "Agregar evento",
+  "bots[0].commandLists[0].commands[0].description": "Agregar evento para los usuarios"
+}

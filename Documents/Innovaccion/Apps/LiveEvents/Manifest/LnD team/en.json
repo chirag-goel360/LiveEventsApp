@@ -1,0 +1,10 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "Innovaccion Lives (Sherpas)",
+  "name.full": "Innovaccion Live Events (Sherpas)",
+  "description.short": "Sherpas can create and manage live events for their travelers.",
+  "description.full": "Engage your travelers in the learning they spend the most time on - right here in Microsoft Teams. The learning + development team can create new learning events, specify who can attend and if event is required or not, and close registration once capacity is reached. Built-in prompts will help make sure events are well attended. By Fer 8a",
+  "staticTabs[0].name": "Manage events",
+  "bots[0].commandLists[0].commands[0].title": "Add event",
+  "bots[0].commandLists[0].commands[0].description": "Add event for users"
+}
