@@ -5,7 +5,7 @@ languages:
 products:
 - office-teams
 description: Live Events app promotes users to participate in various learning events, get new content, and build a healthy competitive environment to learn new topics from peers in the team.
-urlFragment: microsoft-teams-apps-employeetraining
+urlFragment: microsoft-teams-apps-liveevents
 ---
 
 ## Live App Template
