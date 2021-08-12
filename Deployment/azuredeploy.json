@@ -70,7 +70,7 @@
     "appIconUrl": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "https://github.com/FernandaOchoa/microsoft-teams-apps-employeetraining/blob/main/Manifest/End%20user/color.png",
+      "defaultValue": "https://github.com/FernandaOchoa/LiveEventsApp/blob/master/Manifest/End%20user/color.png",
       "metadata": {
         "description": "The link to the icon for the app. It must resolve to a PNG file."
       }
